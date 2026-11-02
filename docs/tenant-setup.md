@@ -18,7 +18,7 @@ Three accounts, each with one job:
 | Admin account | Global administration only, kept separate from daily work | None |
 | Break-glass account | Cloud-only emergency access if the admin account is locked out | None (removed) |
 
-- **MFA** is on all three accounts. The admin account uses a passkey; the daily and admin accounts also use Microsoft Authenticator.
+- **MFA** is required on every account, with a phishing-resistant passkey on the admin account.
 - Naming follows a fixed convention set before the first user was added, so new accounts and roles stay predictable.
 
 ## Email authentication (Oct 30, 2026)
