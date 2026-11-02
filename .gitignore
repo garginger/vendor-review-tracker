@@ -1,0 +1,46 @@
+# Secrets and local settings — never commit
+.env
+.env.*
+!.env.example
+local.settings.json
+*.pfx
+*.snk
+appsettings.Development.json
+
+# .NET / Visual Studio build output
+bin/
+obj/
+out/
+*.user
+*.suo
+.vs/
+TestResults/
+*.nupkg
+
+# Node / TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# Power Platform
+# Exported solution zips are build artifacts; the unpacked source is what gets versioned
+*.zip
+.pac/
+
+# Azure Functions
+.azurefunctions/
+__azurite_db*
+__blobstorage__/
+__queuestorage__/
+
+# Python
+__pycache__/
+.venv/
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
